@@ -6,8 +6,8 @@ osu! Mania에서 등수를 산정할때 필요한 점수인 PP(Perfomance Point)
 
 ## 스크린샷
 
-[메인 화면](/images/main.png)
+![로그인 화면](/images/login.png)
 메인 화면입니다. 이곳에서 PP를 산정하는데 필요한 값들을 입력해줄 수 있습니다.
 
-[결과 화면](/images/result.png)
+![결과 화면](/images/result.png)
 이곳에서 산정된 PP를 확인할 수 있습니다.
