@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/rounded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아래 사항을 모두 기입하여 주세요." />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/star"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  StarRating"
+            android:textSize="20dp" />
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/starET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="곡의 난이도를 입력하여 주세요."/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/od"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="OD"
+
+            android:textSize="20dp"/>
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/odET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="곡의 OD를 입력하여 주세요."/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Score"
+            android:textSize="25dp" />
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/scoreET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="달성한 점수를 입력해 주세요."/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accuary"
+            android:textSize="25dp" />
+
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/accET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:hint="달성한 정확도를 입력해 주세요."/>
+
+        <Button
+            android:layout_margin="15dp"
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#ec407a"
+            android:text="계산!" />
+        </LinearLayout>
+
+</LinearLayout>
